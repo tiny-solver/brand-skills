@@ -1,0 +1,12 @@
+[
+ {"in":{"fonts":["fixtures/latin.otf"],"texts":["sample","hello, world."]},"out":{"chars":13,"missing_count":0,"missing_chars":"","missing":[],"text":"latin.otf — 글자 13 · 빠진 글자 0"}},
+ {"in":{"fonts":["fixtures/latin.otf","fixtures/hangul.otf"],"texts":["hello","작은 상자"]},"out":{"chars":8,"missing_count":4,"missing_chars":"작은상자","missing":[],"text":"latin.otf — 글자 8 · 빠진 글자 4 (작은상자) · hangul.otf — 글자 8 · 빠진 글자 0"}},
+ {"in":{"fonts":["fixtures/hangul.otf"],"texts":["작은"]},"out":{"chars":2,"missing_count":0,"missing_chars":""}},
+ {"in":{"fonts":["fixtures/nope.otf","fixtures/latin.otf"],"texts":["hello"]},"out":{"chars":4,"missing_count":null,"missing_chars":null,"missing":["fixtures/nope.otf 없음"]}},
+ {"in":{"fonts":["fixtures/nope.otf","fixtures/hangul.otf"],"texts":["Hello"]},"out":{"missing_count":1,"missing_chars":"H","missing":["fixtures/nope.otf 없음"],"text":"hangul.otf — 글자 4 · 빠진 글자 1 (H)"}},
+ {"in":{"fonts":["fixtures/latin.otf"],"texts":[null,""]},"out":{"chars":null,"missing_count":null,"missing":["글 없음"],"text":""}},
+ {"in":{"texts":["hello"]},"out":{"chars":4,"missing_count":null,"missing":["글꼴 파일 없음"]}},
+ {"in":{"fonts":["fixtures/make.mjs"],"texts":["a"]},"out":{"missing_count":null,"missing":["fixtures/make.mjs 형식 — TTF · OTF · TTC 만"]}},
+ {"in":{"fonts":["fixtures/broken-cmap.otf","fixtures/latin.otf"],"texts":["hello"]},"out":{"chars":4,"missing_count":null,"missing_chars":null,"missing":["fixtures/broken-cmap.otf 글꼴 표가 깨졌다 — cmap"],"text":"latin.otf — 글자 4 · 빠진 글자 0"}},
+ {"in":{"fonts":["fixtures/broken-head.ttc"],"texts":["hello"]},"out":{"chars":4,"missing_count":null,"missing":["fixtures/broken-head.ttc 글꼴 표가 깨졌다 — TTC 머리"],"text":""}}
+]

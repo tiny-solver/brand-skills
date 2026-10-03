@@ -1,0 +1,16 @@
+{
+ "$comment": "fixtures/make.mjs 가 만드는 시험 파일 — git 에 두지 않는다(글꼴 파일을 저장소에 넣지 않는다). 만들기: node fixtures/make.mjs(needs 의 opentype.js 2.0.0 이 있어야 한다 — 판이 다르면 바이트가 달라질 수 있다) — 같은 바이트(sha256)가 다시 나온다. 실행기 validate 는 없는 파일을 쓰는 시험 값을 건너뛰고 만드는 명령을 알린다. 측정기 시험(measure.test.mjs)은 없으면 먼저 만든다.",
+ "needs": ["opentype.js@2.0.0"],
+ "files": {
+  "apache/apache.otf": "sha256:b3dcf4eaae649f0b425bc7d6a38ef2c5fe29972c3800d6da53464086732e992d",
+  "both/both.otf": "sha256:51db1e4ecd107d9fb822640fec44f8547c7b541d11934367fa0af2ea9c99bd13",
+  "broken/head.ttc": "sha256:58b08c6662386bd9d6bc8c07e293593b7b1bd72335d2415097ec6834068c6d2a",
+  "ko-deny/ko.otf": "sha256:407345b0e44ac8ab02c90f5341481a7cff686e2916a98a78df47900a41013ead",
+  "none/none.otf": "sha256:4bea73c72eaa730c8731b1612005bfa09b34642099d472d4e66ec9b2bdc0570d",
+  "ofl-ko/ofl-ko.otf": "sha256:ca9996848a7b8dabea1e766a266d36fe175ca86bd8b85e4cdf065ce883560bd9",
+  "ofl/ofl.otf": "sha256:614cbd5511c54517738326ae024fe2aa7059ea814802cd0a69f44116c30a8f38",
+  "personal/personal.otf": "sha256:d955965ebf2abc2bd86737b0a2cca6b04011db1e282e5ef95b1761ec3ab33eaa",
+  "with-file/OFL.txt": "sha256:fbf6193e5856559bfab023d60c7a78b76486010536ef5a762d97fe750d3f9ac5",
+  "with-file/plain.otf": "sha256:8ae8b9bc7e87b7138a28692830135af262a3622ddb88340fb0d8c52d2966571f"
+ }
+}

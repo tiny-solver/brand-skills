@@ -1,0 +1,12 @@
+[
+ {"in":{"hex":"#066bdc","ink":"#000000","target":7},"out":{"dark":"#569ae7","ratio":7.1718,"made":true}},
+ {"in":{"hex":"#34447b","ink":"#000000","target":7},"out":{"dark":"#8d96b5","ratio":7.1623,"made":true}},
+ {"in":{"hex":"#8e37c0","ink":"#000000","target":7},"out":{"dark":"#b77fd7","ratio":7.0305,"made":true}},
+ {"in":{"hex":"#9536fa","ink":"#000000","target":7},"out":{"dark":"#b776fc","ratio":7.0105,"made":true}},
+ {"in":{"hex":"#0e7490","dark":"#3a8ea3","ink":"#000000","target":7},"out":{"dark":"#3a8ea3","ratio":5.578,"made":false}},
+ {"in":{"hex":"#c47a10","ink":"#000000","target":7},"out":{"dark":"#ca8728","ratio":7.0075,"made":true}},
+ {"in":{"hex":"#e0a526","ink":"#000000","target":7},"out":{"dark":"#e0a526","ratio":9.5795,"made":false}},
+ {"in":{"hex":"#17333f","ink":"#000000","target":7},"out":{"dark":"#8b999f","ratio":7.1549,"made":true}},
+ {"in":{"hex":"#34447b"},"out":{"dark":"#8d96b5","ratio":7.1623,"made":true,"text":"#8d96b5(만듦) / #000000 7.2:1"}},
+ {"in":{"hex":"#12345"},"out":{"dark":null,"ratio":null,"made":null}}
+]

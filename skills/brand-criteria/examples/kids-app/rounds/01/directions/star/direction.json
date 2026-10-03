@@ -1,0 +1,10 @@
+{
+  "id": "star",
+  "kind": "logo",
+  "idea": "아이가 그린 듯한 별 하나 — 잘 그린 날을 별로",
+  "core": "kid-hand",
+  "tokens": {
+    "light": { "bg": "#ffffff", "ink": "#281815", "accent": "#7c3aed" },
+    "dark": { "bg": "#231710", "ink": "#f6f2cb", "accent": "#c084fc" }
+  }
+}

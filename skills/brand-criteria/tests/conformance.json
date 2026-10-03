@@ -1,0 +1,299 @@
+{
+ "$comment": "시험 값 — 기준 팩을 돌리는 구현(스킬 · 웹 · API)은 모두 이 값을 내야 한다. 색 · 셀은 이 시험을 위해 지어낸 값이다 — 실제 브랜드 · 라운드와 관계없다. contrast 는 대비 비율, color 는 색 여덟을 기본 팩 tinysolver/color 로 잰 값이다. tally 는 지어낸 라운드 셋(A · B · C)의 아홉 방향 셀을 기본 팩으로 센 값이다(confirm = 사람 확인이 있는 기준 가운데 값이 매겨졌고 아직 확인 전인 셀). inherit 은 커스텀 팩 상속 — 시험 팩 lineup/logo@1 로 라운드 C 를 다시 센 값이다. pick 은 kind 마다 쓸 팩 고르기 — use.json 이 겹칠 때 고르는 팩이다. 숫자는 소수 넷째 반올림. 실행기 validate 가 측정기 시험 값(measures/<id>/vectors.json)을, 저장소 시험이 이 파일을 돌린다.",
+ "contrast": [
+  {"fg": "#0e7490", "bg": "#d9fed1", "ratio": 4.8597},
+  {"fg": "#5ba0b4", "bg": "#0d1f12", "ratio": 5.8373},
+  {"fg": "#16241a", "bg": "#d9fed1", "ratio": 14.6366},
+  {"fg": "#dcedd4", "bg": "#0d1f12", "ratio": 14.0014},
+  {"fg": "#066bdc", "bg": "#ffffff", "ratio": 5.0672},
+  {"fg": "#9536fa", "bg": "#ffffff", "ratio": 5.0167},
+  {"fg": "#ffffff", "bg": "#ec79ec", "ratio": 2.4669},
+  {"fg": "#ffffff", "bg": "#4b8f3d", "ratio": 3.9656},
+  {"fg": "#6b5410", "bg": "#ffffff", "ratio": 7.2395},
+  {"fg": "#f2c94c", "bg": "#0d1f12", "ratio": 10.8316}
+ ],
+ "color": [
+  {
+   "hex": "#066bdc",
+   "dark": null,
+   "dark_out": "#569ae7",
+   "made": true,
+   "light": 5.0672,
+   "dark_ratio": 7.1718,
+   "common": 4.6291,
+   "trend": 17.952,
+   "scores": {"light-contrast": 2, "dark-variant": 2, "common-distance": 0, "trend-distance": 2}
+  },
+  {
+   "hex": "#34447b",
+   "dark": null,
+   "dark_out": "#8d96b5",
+   "made": true,
+   "light": 9.2967,
+   "dark_ratio": 7.1623,
+   "common": 8.1133,
+   "trend": 18.2814,
+   "scores": {"light-contrast": 2, "dark-variant": 2, "common-distance": 1, "trend-distance": 2}
+  },
+  {
+   "hex": "#8e37c0",
+   "dark": null,
+   "dark_out": "#b77fd7",
+   "made": true,
+   "light": 6.0733,
+   "dark_ratio": 7.0305,
+   "common": 18.144,
+   "trend": 7.2797,
+   "scores": {"light-contrast": 2, "dark-variant": 2, "common-distance": 2, "trend-distance": 1}
+  },
+  {
+   "hex": "#9536fa",
+   "dark": null,
+   "dark_out": "#b776fc",
+   "made": true,
+   "light": 5.0167,
+   "dark_ratio": 7.0105,
+   "common": 17.3035,
+   "trend": 4.1839,
+   "scores": {"light-contrast": 2, "dark-variant": 2, "common-distance": 2, "trend-distance": 0}
+  },
+  {
+   "hex": "#0e7490",
+   "dark": "#3a8ea3",
+   "dark_out": "#3a8ea3",
+   "made": false,
+   "light": 5.3578,
+   "dark_ratio": 5.578,
+   "common": 17.5471,
+   "trend": 24.8929,
+   "scores": {"light-contrast": 2, "dark-variant": 1, "common-distance": 2, "trend-distance": 2}
+  },
+  {
+   "hex": "#c47a10",
+   "dark": null,
+   "dark_out": "#ca8728",
+   "made": true,
+   "light": 3.4211,
+   "dark_ratio": 7.0075,
+   "common": 53.2942,
+   "trend": 57.5786,
+   "scores": {"light-contrast": 1, "dark-variant": 2, "common-distance": 2, "trend-distance": 2}
+  },
+  {
+   "hex": "#e0a526",
+   "dark": null,
+   "dark_out": "#e0a526",
+   "made": false,
+   "light": 2.1922,
+   "dark_ratio": 9.5795,
+   "common": 58.4123,
+   "trend": 65.8582,
+   "scores": {"light-contrast": 0, "dark-variant": 2, "common-distance": 2, "trend-distance": 2}
+  },
+  {
+   "hex": "#17333f",
+   "dark": null,
+   "dark_out": "#8b999f",
+   "made": true,
+   "light": 13.2765,
+   "dark_ratio": 7.1549,
+   "common": 12.6198,
+   "trend": 19.3577,
+   "scores": {"light-contrast": 2, "dark-variant": 2, "common-distance": 2, "trend-distance": 2}
+  }
+ ],
+ "tally": [
+  {
+   "round": "A",
+   "direction": "a1",
+   "pack": "tinysolver/logo@3",
+   "gates": {"small": true, "mono": true, "contrast": true, "culture": true, "owned": true, "crop": true},
+   "scores": {"simple": 2, "distinct": 2, "fit": 1, "one": 2, "lasting": 2, "family": 2},
+   "total": 11,
+   "max": 12,
+   "state": "ok",
+   "blocked": [],
+   "unseen": [],
+   "below": [],
+   "confirm": ["culture", "owned"]
+  },
+  {
+   "round": "A",
+   "direction": "a2",
+   "pack": "tinysolver/logo@3",
+   "gates": {"small": true, "mono": true, "contrast": true, "culture": true, "owned": true, "crop": true},
+   "scores": {"simple": 2, "distinct": 1, "fit": 2, "one": 1, "lasting": 2, "family": 1},
+   "total": 9,
+   "max": 12,
+   "state": "ok",
+   "blocked": [],
+   "unseen": [],
+   "below": [],
+   "confirm": ["culture", "owned"]
+  },
+  {
+   "round": "A",
+   "direction": "a3",
+   "pack": "tinysolver/logo@3",
+   "gates": {"small": true, "mono": true, "contrast": true, "culture": true, "owned": true, "crop": true},
+   "scores": {"simple": 1, "distinct": 2, "fit": 2, "one": 2, "lasting": 2, "family": 0},
+   "total": 9,
+   "max": 12,
+   "state": "below",
+   "blocked": [],
+   "unseen": [],
+   "below": ["family"],
+   "confirm": ["culture", "owned"]
+  },
+  {
+   "round": "B",
+   "direction": "b1",
+   "pack": "tinysolver/icon@3",
+   "gates": {"small": true, "mono": false, "contrast": true, "culture": true, "owned": true, "crop": false},
+   "scores": {"simple": 2, "distinct": 1, "fit": 1, "one": 2, "lasting": 2, "family": 1, "intuitive": 1},
+   "total": 10,
+   "max": 14,
+   "state": "blocked",
+   "blocked": ["mono", "crop"],
+   "unseen": [],
+   "below": [],
+   "confirm": ["culture", "owned"]
+  },
+  {
+   "round": "B",
+   "direction": "b2",
+   "pack": "tinysolver/icon@3",
+   "gates": {"small": true, "mono": true, "contrast": false, "culture": true, "owned": true, "crop": true},
+   "scores": {"simple": 2, "distinct": 2, "fit": 2, "one": 1, "lasting": 2, "family": 1, "intuitive": 0},
+   "total": 10,
+   "max": 14,
+   "state": "blocked",
+   "blocked": ["contrast"],
+   "unseen": [],
+   "below": ["intuitive"],
+   "confirm": ["culture", "owned"]
+  },
+  {
+   "round": "B",
+   "direction": "b3",
+   "pack": "tinysolver/icon@3",
+   "gates": {"small": true, "mono": true, "contrast": true, "culture": true, "owned": true, "crop": true},
+   "scores": {"simple": 2, "distinct": 1, "fit": 2, "one": 2, "lasting": 1, "family": 2, "intuitive": 2},
+   "total": 12,
+   "max": 14,
+   "state": "ok",
+   "blocked": [],
+   "unseen": [],
+   "below": [],
+   "confirm": ["culture", "owned"]
+  },
+  {
+   "round": "C",
+   "direction": "c1",
+   "pack": "tinysolver/logo@3",
+   "gates": {"small": null, "mono": true, "contrast": true, "culture": true, "owned": null, "crop": true},
+   "scores": {"simple": 1, "distinct": 2, "fit": 2, "one": 2, "lasting": 2, "family": 1},
+   "total": 10,
+   "max": 12,
+   "state": "unseen",
+   "blocked": [],
+   "unseen": ["small", "owned"],
+   "below": [],
+   "confirm": ["culture"]
+  },
+  {
+   "round": "C",
+   "direction": "c2",
+   "pack": "tinysolver/logo@3",
+   "gates": {"small": true, "mono": true, "contrast": true, "culture": true, "owned": null, "crop": true},
+   "scores": {"simple": 1, "distinct": 2, "fit": 2, "one": 2, "lasting": 1, "family": 1},
+   "total": 9,
+   "max": 12,
+   "state": "unseen",
+   "blocked": [],
+   "unseen": ["owned"],
+   "below": [],
+   "confirm": ["culture"]
+  },
+  {
+   "round": "C",
+   "direction": "c3",
+   "pack": "tinysolver/logo@3",
+   "gates": {"small": true, "mono": true, "contrast": true, "culture": true, "owned": null, "crop": true},
+   "scores": {"simple": 2, "distinct": 1, "fit": 1, "one": 1, "lasting": 2, "family": 2},
+   "total": 9,
+   "max": 12,
+   "state": "unseen",
+   "blocked": [],
+   "unseen": ["owned"],
+   "below": [],
+   "confirm": ["culture"]
+  }
+ ],
+ "inherit": {
+  "$comment": "상속 — 시험 팩 lineup/logo@1(tests/fixtures/lineup)을 풀어 라운드 C 의 같은 셀로 센다. signed 는 더한 문턱이라 셀이 없다(null → 안 봄). distinct 무게 2 로 만점 14 · c3 10/14 는 75% 밑이지만 안 본 문턱이 앞이라 state 는 unseen.",
+  "pack": "lineup/logo@1",
+  "fixture": "tests/fixtures/lineup/packs/lineup/logo",
+  "use": "tests/fixtures/lineup/packs/use.json",
+  "round": "C",
+  "chain": ["tinysolver/logo@3", "lineup/logo@1"],
+  "gates": ["small", "mono", "contrast", "culture", "owned", "crop", "signed"],
+  "scores": ["simple", "distinct", "fit", "one", "lasting", "family"],
+  "weights": {"distinct": 2},
+  "max": 14,
+  "changed": ["distinct", "family"],
+  "added": ["signed"],
+  "directions": [
+   {
+    "direction": "c1",
+    "gates": {"small": null, "mono": true, "contrast": true, "culture": true, "owned": null, "crop": true},
+    "scores": {"simple": 1, "distinct": 2, "fit": 2, "one": 2, "lasting": 2, "family": 1},
+    "total": 12,
+    "max": 14,
+    "state": "unseen",
+    "blocked": [],
+    "unseen": ["small", "owned", "signed"],
+    "below": [],
+    "confirm": ["culture"]
+   },
+   {
+    "direction": "c2",
+    "gates": {"small": true, "mono": true, "contrast": true, "culture": true, "owned": null, "crop": true},
+    "scores": {"simple": 1, "distinct": 2, "fit": 2, "one": 2, "lasting": 1, "family": 1},
+    "total": 11,
+    "max": 14,
+    "state": "unseen",
+    "blocked": [],
+    "unseen": ["owned", "signed"],
+    "below": [],
+    "confirm": ["culture"]
+   },
+   {
+    "direction": "c3",
+    "gates": {"small": true, "mono": true, "contrast": true, "culture": true, "owned": null, "crop": true},
+    "scores": {"simple": 2, "distinct": 1, "fit": 1, "one": 1, "lasting": 2, "family": 2},
+    "total": 10,
+    "max": 14,
+    "state": "unseen",
+    "blocked": [],
+    "unseen": ["owned", "signed"],
+    "below": [],
+    "confirm": ["culture"]
+   }
+  ]
+ },
+ "pick": {
+  "$comment": "kind 마다 쓸 팩(§2-3) — 라운드 폴더에서 위로, 그 kind 를 적은 가장 가까운 packs/use.json. 적지 않은 kind 는 더 위의 use.json 으로 가고, 어디에도 없으면 tinysolver/<kind>(판을 뺀 ref — 가장 높은 판). --pack 이 먼저다. use 의 경로는 프로젝트(git) 루트 기준이다.",
+  "use": {
+   "packs/use.json": {"logo": "acme/logo@1", "icon": "acme/icon@1"},
+   "kids/packs/use.json": {"logo": "kids/logo@1"}
+  },
+  "cases": [
+   {"from": "kids/rounds/01", "kind": "logo", "want": "kids/logo@1"},
+   {"from": "kids/rounds/01", "kind": "icon", "want": "acme/icon@1"},
+   {"from": "kids/rounds/01", "kind": "color", "want": "tinysolver/color"},
+   {"from": "rounds/01", "kind": "logo", "want": "acme/logo@1"},
+   {"from": "kids/rounds/01", "kind": "logo", "pack": "kids/logo@2", "want": "kids/logo@2"}
+  ]
+ }
+}

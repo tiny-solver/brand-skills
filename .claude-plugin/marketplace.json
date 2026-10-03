@@ -1,0 +1,12 @@
+{
+  "name": "tinysolver",
+  "description": "Brand criteria skills: score logo, app icon, brand color and font candidates against criteria packs",
+  "owner": { "name": "tinysolver" },
+  "plugins": [
+    {
+      "name": "brand-skills",
+      "source": "./",
+      "description": "Score logo, app icon, brand color and font candidates against criteria packs and build custom packs that extend the defaults"
+    }
+  ]
+}

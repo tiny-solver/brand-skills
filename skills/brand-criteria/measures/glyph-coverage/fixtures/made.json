@@ -1,0 +1,10 @@
+{
+ "$comment": "fixtures/make.mjs 가 만드는 시험 파일 — git 에 두지 않는다(글꼴 파일을 저장소에 넣지 않는다). 만들기: node fixtures/make.mjs(needs 의 opentype.js 2.0.0 이 있어야 한다 — 판이 다르면 바이트가 달라질 수 있다) — 같은 바이트(sha256)가 다시 나온다. 실행기 validate 는 없는 파일을 쓰는 시험 값을 건너뛰고 만드는 명령을 알린다. 측정기 시험(measure.test.mjs)은 없으면 먼저 만든다.",
+ "needs": ["opentype.js@2.0.0"],
+ "files": {
+  "broken-cmap.otf": "sha256:03b3b9a83a602d100a7793b956a618b025a81484605d96f6a6da36cb189c9d1d",
+  "broken-head.ttc": "sha256:58b08c6662386bd9d6bc8c07e293593b7b1bd72335d2415097ec6834068c6d2a",
+  "hangul.otf": "sha256:8d15213186e5a5a0e6451b59599f2ced2494353cd1b0983b872392237828371e",
+  "latin.otf": "sha256:7eb3db3fa35789d84b0ceccf339e48ae3697db616bcedcf1a53eb373d701d303"
+ }
+}

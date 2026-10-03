@@ -1,0 +1,7 @@
+.criteria/
+node_modules/
+.DS_Store
+# 측정기 시험 글꼴 — 시험이 fixtures/make.mjs 로 만든다(저장소에 글꼴을 두지 않는다 · 목록은 fixtures/made.json)
+skills/brand-criteria/measures/*/fixtures/**/*.otf
+skills/brand-criteria/measures/*/fixtures/**/*.ttc
+skills/brand-criteria/measures/font-license/fixtures/with-file/OFL.txt

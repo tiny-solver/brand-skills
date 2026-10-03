@@ -1,0 +1,16 @@
+[
+ {"in":{"pairs":[{"fg":"#0e7490","bg":"#d9fed1","role":"shape"}]},"out":{"shape_min":4.8597,"text_min":null,"pass":true,"text":"#0e7490 / #d9fed1 4.86:1"}},
+ {"in":{"pairs":[{"fg":"#5ba0b4","bg":"#0d1f12","role":"shape"}]},"out":{"shape_min":5.8373,"text_min":null,"pass":true,"text":"#5ba0b4 / #0d1f12 5.84:1"}},
+ {"in":{"pairs":[{"fg":"#16241a","bg":"#d9fed1","role":"shape"}]},"out":{"shape_min":14.6366,"text_min":null,"pass":true,"text":"#16241a / #d9fed1 14.64:1"}},
+ {"in":{"pairs":[{"fg":"#dcedd4","bg":"#0d1f12","role":"shape"}]},"out":{"shape_min":14.0014,"text_min":null,"pass":true,"text":"#dcedd4 / #0d1f12 14.00:1"}},
+ {"in":{"pairs":[{"fg":"#066bdc","bg":"#ffffff","role":"shape"}]},"out":{"shape_min":5.0672,"text_min":null,"pass":true,"text":"#066bdc / #ffffff 5.07:1"}},
+ {"in":{"pairs":[{"fg":"#9536fa","bg":"#ffffff","role":"shape"}]},"out":{"shape_min":5.0167,"text_min":null,"pass":true,"text":"#9536fa / #ffffff 5.02:1"}},
+ {"in":{"pairs":[{"fg":"#ffffff","bg":"#ec79ec","role":"shape"}]},"out":{"shape_min":2.4669,"text_min":null,"pass":false,"text":"#ffffff / #ec79ec 2.47:1"}},
+ {"in":{"pairs":[{"fg":"#ffffff","bg":"#4b8f3d","role":"shape"}]},"out":{"shape_min":3.9656,"text_min":null,"pass":true,"text":"#ffffff / #4b8f3d 3.97:1"}},
+ {"in":{"pairs":[{"fg":"#6b5410","bg":"#ffffff","role":"shape"}]},"out":{"shape_min":7.2395,"text_min":null,"pass":true,"text":"#6b5410 / #ffffff 7.24:1"}},
+ {"in":{"pairs":[{"fg":"#f2c94c","bg":"#0d1f12","role":"shape"}]},"out":{"shape_min":10.8316,"text_min":null,"pass":true,"text":"#f2c94c / #0d1f12 10.83:1"}},
+ {"in":{"pairs":[{"fg":"#0e7490","bg":"#d9fed1","role":"shape"},{"fg":"#5ba0b4","bg":"#0d1f12","role":"shape"},{"fg":"#16241a","bg":"#d9fed1","role":"text"},{"fg":"#dcedd4","bg":"#0d1f12","role":"text"}],"shape_min":3,"text_min":4.5},"out":{"pass":true,"shape_min":4.8597,"text_min":14.0014,"text":"#0e7490 / #d9fed1 4.86:1 · #5ba0b4 / #0d1f12 5.84:1 · #16241a / #d9fed1 14.64:1 · #dcedd4 / #0d1f12 14.00:1"}},
+ {"in":{"pairs":[],"tiles":[{"id":"a","fg":"#ffffff","bg":"#ec79ec"},{"id":"b","fg":"#ffffff","bg":"#4b8f3d"}],"shape_min":3},"out":{"pass":false,"shape_min":2.4669,"text":"a #ffffff / #ec79ec 2.47:1 · b #ffffff / #4b8f3d 3.97:1"}},
+ {"in":{"pairs":[{"fg":"#0e7490","bg":null,"role":"shape"}]},"out":{"pass":null,"shape_min":null}},
+ {"in":{"pairs":[{"fg":"#16241a","bg":"#d9fed1","role":"text"}]},"out":{"pass":null,"shape_min":null,"text_min":14.6366}}
+]

@@ -1,0 +1,9 @@
+[
+ {"in":{"files":{"mark":"fixtures/shape.svg"}},"out":{"top":[],"nearest":null,"max_score":null,"count":0,"missing":["roles 없음","compare 없음 — 비교 로고 폴더"]}},
+ {"in":{"files":{"mark":"fixtures/shape.svg"},"roles":["profile"],"compare":"fixtures/compare"},"out":{"nearest":null,"count":0,"missing":["판 없음 — profile"]}},
+ {"in":{"files":{"mark":"fixtures/shape.svg"},"roles":["mark"],"compare":["fixtures/none"]},"out":{"nearest":null,"count":0,"missing":["fixtures/none 없음"]}},
+ {"in":{"files":{"mark":"fixtures/shape.svg"},"roles":["mark"],"compare":["fixtures/compare/notes.txt"]},"out":{"nearest":null,"count":0,"missing":["fixtures/compare/notes.txt 그림 형식이 아니다"]}},
+ {"in":{"files":{"mark":"fixtures/shape.svg"},"roles":["profile","mark"],"compare":"fixtures/compare","k":1},"out":{"top":[{"mine":"fixtures/shape.svg","file":"fixtures/compare/shape-copy.svg","dhash":0,"phash":0,"score":1}],"nearest":"fixtures/compare/shape-copy.svg","max_score":1,"min_dhash":0,"min_phash":0,"count":6,"missing":[]}},
+ {"in":{"files":{"mark":"fixtures/shape.svg"},"roles":["mark"],"compare":["fixtures/shape.svg","fixtures/compare/cross.svg"]},"out":{"nearest":"fixtures/compare/cross.svg","count":1,"missing":[]}},
+ {"in":{"files":{"mark":"fixtures/shape.svg"},"roles":["mark"],"compare":["fixtures/compare/cross.svg","fixtures/compare/shape-white.svg","fixtures/compare/bars.svg"]},"out":{"nearest":"fixtures/compare/shape-white.svg","count":3,"missing":[]}}
+]

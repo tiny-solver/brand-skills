@@ -1,0 +1,20 @@
+[
+ {"in":{"hex":"#066bdc","ref":"common-blues@2026-10"},"out":{"de_min":4.6291,"nearest":"#2563eb"}},
+ {"in":{"hex":"#066bdc","ref":"trend-purples@2026-10"},"out":{"de_min":17.952,"nearest":"#8b5cf6"}},
+ {"in":{"hex":"#34447b","ref":"common-blues@2026-10"},"out":{"de_min":8.1133,"nearest":"#004ea1"}},
+ {"in":{"hex":"#34447b","ref":"trend-purples@2026-10"},"out":{"de_min":18.2814,"nearest":"#6d28d9"}},
+ {"in":{"hex":"#8e37c0","ref":"common-blues@2026-10"},"out":{"de_min":18.144,"nearest":"#1428a0"}},
+ {"in":{"hex":"#8e37c0","ref":"trend-purples@2026-10"},"out":{"de_min":7.2797,"nearest":"#7c3aed"}},
+ {"in":{"hex":"#9536fa","ref":"common-blues@2026-10"},"out":{"de_min":17.3035,"nearest":"#0064ff"}},
+ {"in":{"hex":"#9536fa","ref":"trend-purples@2026-10"},"out":{"de_min":4.1839,"nearest":"#7c3aed"}},
+ {"in":{"hex":"#0e7490","ref":"common-blues@2026-10"},"out":{"de_min":17.5471,"nearest":"#1877f2"}},
+ {"in":{"hex":"#0e7490","ref":"trend-purples@2026-10"},"out":{"de_min":24.8929,"nearest":"#8b5cf6"}},
+ {"in":{"hex":"#c47a10","ref":"common-blues@2026-10"},"out":{"de_min":53.2942,"nearest":"#4285f4"}},
+ {"in":{"hex":"#c47a10","ref":"trend-purples@2026-10"},"out":{"de_min":57.5786,"nearest":"#8b5cf6"}},
+ {"in":{"hex":"#e0a526","ref":"common-blues@2026-10"},"out":{"de_min":58.4123,"nearest":"#4285f4"}},
+ {"in":{"hex":"#e0a526","ref":"trend-purples@2026-10"},"out":{"de_min":65.8582,"nearest":"#8b5cf6"}},
+ {"in":{"hex":"#17333f","ref":"common-blues@2026-10"},"out":{"de_min":12.6198,"nearest":"#1428a0"}},
+ {"in":{"hex":"#17333f","ref":"trend-purples@2026-10"},"out":{"de_min":19.3577,"nearest":"#6d28d9"}},
+ {"in":{"hex":"#34447b","colors":["#004ea1"]},"out":{"de_min":8.1133,"nearest":"#004ea1"}},
+ {"in":{"hex":"#34447b","ref":"no-such@2026-10"},"out":{"de_min":null,"nearest":null}}
+]

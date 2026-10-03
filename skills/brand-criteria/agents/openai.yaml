@@ -1,0 +1,7 @@
+interface:
+  display_name: "Brand Criteria"
+  short_description: "로고 · 아이콘 · 브랜드 색 · 글꼴 시안을 기준 팩으로 채점한다"
+  default_prompt: "Use $brand-skills:brand-criteria to score the logo candidates in brand/rounds/01 and write score.json."
+
+policy:
+  allow_implicit_invocation: true

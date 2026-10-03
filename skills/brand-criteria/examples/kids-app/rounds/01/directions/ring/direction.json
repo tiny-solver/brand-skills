@@ -1,0 +1,10 @@
+{
+  "id": "ring",
+  "kind": "logo",
+  "idea": "동그라미 하나 + 꽉 찬 점 하나 — 하루 한 장을 점 하나로",
+  "core": "one-a-day",
+  "tokens": {
+    "light": { "bg": "#ffffe5", "ink": "#281815", "accent": "#9b2c2c" },
+    "dark": { "bg": "#231710", "ink": "#f6f2cb", "accent": "#f36868" }
+  }
+}
