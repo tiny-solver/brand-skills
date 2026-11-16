@@ -666,7 +666,7 @@ prepare 가 쓴다. 판정하는 쪽 · 사람이 방향들을 같은 조건으�
 | 집계 | — | 기준 해시가 같은 셀끼리 분포 · 백분위 · 엇갈림 |
 | 만드는 순서 · 대신 돌려 줌 | — | 서비스 |
 
-- 저작권 · 권리 주체는 Tinysolver Inc.(주식회사 타이니솔버)다(NOTICE). tinysolver 이름 · 로고 · 라운드 이미지 · 글꼴은 공개 repo 에 넣지 않는다(TRADEMARK.md) — 측정기 시험 글꼴도 저장소에 두지 않고 `fixtures/make.mjs` 가 만든다. 기여는 DCO(`git commit -s`).
+- 저작권 · 권리 주체는 Tinysolver Co.,Ltd.(주식회사 타이니솔버)다(NOTICE). tinysolver 이름 · 로고 · 라운드 이미지 · 글꼴은 공개 repo 에 넣지 않는다(TRADEMARK.md) — 측정기 시험 글꼴도 저장소에 두지 않고 `fixtures/make.mjs` 가 만든다. 기여는 DCO(`git commit -s`).
 
 ### 9-2. 규격에 드러나는 자리 넷
 
@@ -885,7 +885,7 @@ prepare 가 쓴다. 판정하는 쪽 · 사람이 방향들을 같은 조건으�
       "disabled": {}
     }
   },
-  "runner": { "by": "skill", "core": "brand-criteria 0.1.0", "judge": "<판정 모델 이름>", "independent": false },
+  "runner": { "by": "skill", "core": "brand-criteria 0.1.1", "judge": "<판정 모델 이름>", "independent": false },
   "date": "2026-10-02",
   "directions": {
     "a1": {
@@ -924,7 +924,7 @@ license: Apache-2.0
 compatibility: 실행기는 Node.js 22+ (의존성 없음 · 네트워크를 쓰지 않음). 그림 측정(render · safe-area · local-similar)은 playwright-core 와 Chrome 이 있을 때만 — 없으면 그 칸은 안 봄으로 남거나 fallback 대로 판정한다. Node 가 없으면 기준 글만으로 판정한다.
 metadata:
   pack-format: "3"
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 ```
 

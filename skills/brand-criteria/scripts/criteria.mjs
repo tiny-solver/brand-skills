@@ -22,7 +22,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 // 스킬 폴더 — 이 파일의 한 단계 위(scripts/..)
 export const SKILL = path.resolve(HERE, '..');
-export const VERSION = '0.1.0';
+export const VERSION = '0.1.1';
 // 규격 판 — 기본 팩 PACK.md format 이 없으면 3. 판 3 은 근거 없는 문턱 통과를 안 봄으로 · 측정 기준은 fallback 이 있을 때만 판정이 채운다. 판 2 팩은 format "2" 를 적는다
 export const FORMAT_DEFAULT = '3';
 export const isStrict = (format) => Number(format || FORMAT_DEFAULT) >= 3;

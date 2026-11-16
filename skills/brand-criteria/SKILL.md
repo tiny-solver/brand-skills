@@ -5,7 +5,7 @@ license: Apache-2.0
 compatibility: 실행기는 Node.js 22+ (의존성 없음 · 네트워크를 쓰지 않음). 그림 측정(render · safe-area · local-similar)은 playwright-core 와 Chrome 이 있을 때만 — 없으면 그 칸은 안 봄으로 남거나 fallback 대로 판정한다. Node 가 없으면 기준 글만으로 판정한다.
 metadata:
   pack-format: "3"
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # 기준으로 채점하기 · 내 기준 팩 만들기
