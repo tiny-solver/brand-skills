@@ -1,6 +1,6 @@
 # 상표 — tinysolver 이름과 로고
 
-이 저장소의 코드 · 기준 팩 글 · 참조 묶음 · 스키마 · 예시 · 시험 값은 [Apache License 2.0](LICENSE) 이고, 권리 주체는 Tinysolver Inc.(주식회사 타이니솔버)다([NOTICE](NOTICE)). **tinysolver 이름과 로고는 이 라이선스에 들어가지 않는다** — Tinysolver Inc. 의 상표이고, Apache-2.0 6조도 상표 사용을 허락하지 않는다.
+이 저장소의 코드 · 기준 팩 글 · 참조 묶음 · 스키마 · 예시 · 시험 값은 [Apache License 2.0](LICENSE) 이고, 권리 주체는 Tinysolver Co.,Ltd.(주식회사 타이니솔버)다([NOTICE](NOTICE)). **tinysolver 이름과 로고는 이 라이선스에 들어가지 않는다** — Tinysolver Co.,Ltd. 의 상표이고, Apache-2.0 6조도 상표 사용을 허락하지 않는다.
 
 ## 이 저장소에 없는 것
 

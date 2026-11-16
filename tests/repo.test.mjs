@@ -64,9 +64,9 @@ test('라이선스 — Apache-2.0 전문 · NOTICE · TRADEMARK · 기본 팩 li
   assert.equal(sha, 'cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30', 'LICENSE = apache.org 의 LICENSE-2.0.txt 그대로');
   assert.match(read('NOTICE'), /Apache License, Version 2\.0/);
   assert.match(read('NOTICE'), /TRADEMARK\.md/);
-  assert.match(read('NOTICE'), /^Copyright 2026 Tinysolver Inc\. \(주식회사 타이니솔버\)$/m, '권리 주체 = Tinysolver Inc.');
-  assert.match(read('TRADEMARK.md'), /Tinysolver Inc\.\(주식회사 타이니솔버\)/);
-  assert.match(read('README.md').slice(read('README.md').indexOf('## 결과물')), /Tinysolver Inc\.\(주식회사 타이니솔버/, 'README 결과물 절의 권리 주체');
+  assert.match(read('NOTICE'), /^Copyright 2026 Tinysolver Co\.,Ltd\. \(주식회사 타이니솔버\)$/m, '권리 주체 = Tinysolver Co.,Ltd.');
+  assert.match(read('TRADEMARK.md'), /Tinysolver Co\.,Ltd\.\(주식회사 타이니솔버\)/);
+  assert.match(read('README.md').slice(read('README.md').indexOf('## 결과물')), /Tinysolver Co\.,Ltd\.\(주식회사 타이니솔버/, 'README 결과물 절의 권리 주체');
   assert.match(read('TRADEMARK.md'), /tinysolver 이름과 로고는 이 라이선스에 들어가지 않는다/);
   assert.match(read('CONTRIBUTING.md'), /Signed-off-by/);
   for (const k of ['logo', 'icon', 'color', 'type']) {
