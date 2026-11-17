@@ -2,7 +2,7 @@
 
 로고 · 앱 아이콘 · 브랜드 색 · 글꼴 시안을 **기준으로** 고르게 돕는 에이전트 스킬이다. 시안을 기준 팩(문턱 · 점수)으로 채점해 칸마다 근거가 붙은 `score.json` 한 파일을 남기고, 기본 기준을 물려받아 내 기준을 더할 수 있다. Claude Code · Codex · Agent Skills 표준을 따르는 다른 에이전트에서 쓴다.
 
-판 0.1.1 — 0.x 동안은 규격 · 명령 · 기본 팩이 바뀔 수 있다([판 번호](#판-번호)). English summary is at the [end](#english-summary).
+판 0.1.2 — 0.x 동안은 규격 · 명령 · 기본 팩이 바뀔 수 있다([판 번호](#판-번호)). English summary is at the [end](#english-summary).
 
 ## 무엇을 하나
 
@@ -236,7 +236,7 @@ tests/                                           # node --test
 
 ## English summary
 
-An agent skill that helps people choose logos, app icons, brand colors and fonts **by criteria**. Version 0.1.1 (0.x: spec, commands and default packs may still change).
+An agent skill that helps people choose logos, app icons, brand colors and fonts **by criteria**. Version 0.1.2 (0.x: spec, commands and default packs may still change).
 
 - **What it does** — `brand-criteria` scores candidates against criteria packs (pass/fail gates plus 0–2 scores) and writes one `score.json` with a one-line rationale per cell, plus a comparison board (real sizes, light/dark backgrounds, grayscale, four masks). Measurable checks (WCAG contrast, CIEDE2000 color distance, dark variant, mask safe areas, glyph coverage) are decided by code; the rest are judged by your agent from the criterion text. A 2 without a rationale becomes 1 and an unsupported gate pass becomes "not seen" (null). `verify` recomputes everything and fails on edited results. Scores are a floor — people choose.
 - **Default packs** — `tinysolver/logo@3`, `tinysolver/icon@3`, `tinysolver/color@3` (white and black backgrounds; change them in your own pack) and `tinysolver/type@2` (draft). Build your own pack that `extends` a default one (add / disable / set / override) in your project's `brand/packs/`; accessibility floors cannot be lowered.

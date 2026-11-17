@@ -1,6 +1,6 @@
 {
   "name": "brand-skills",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Score logo, app icon, brand color and font candidates against criteria packs and build custom packs that extend the defaults",
   "author": { "name": "tinysolver" },
   "homepage": "https://github.com/tiny-solver/brand-skills",

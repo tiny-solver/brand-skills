@@ -885,7 +885,7 @@ prepare 가 쓴다. 판정하는 쪽 · 사람이 방향들을 같은 조건으�
       "disabled": {}
     }
   },
-  "runner": { "by": "skill", "core": "brand-criteria 0.1.1", "judge": "<판정 모델 이름>", "independent": false },
+  "runner": { "by": "skill", "core": "brand-criteria 0.1.2", "judge": "<판정 모델 이름>", "independent": false },
   "date": "2026-10-02",
   "directions": {
     "a1": {
@@ -924,7 +924,7 @@ license: Apache-2.0
 compatibility: 실행기는 Node.js 22+ (의존성 없음 · 네트워크를 쓰지 않음). 그림 측정(render · safe-area · local-similar)은 playwright-core 와 Chrome 이 있을 때만 — 없으면 그 칸은 안 봄으로 남거나 fallback 대로 판정한다. Node 가 없으면 기준 글만으로 판정한다.
 metadata:
   pack-format: "3"
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 ```
 
